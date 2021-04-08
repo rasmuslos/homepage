@@ -4,7 +4,7 @@ body {
     width: 100vw;
     min-height: 100vh;
 
-    margin: 0px;
+    margin: 0;
 }
 .content {
     position: absolute;
@@ -19,8 +19,25 @@ img {
     max-width: 90vw;
 }
 h1 {
+    margin: 15px 0;
     font-family: 'Dosis', sans-serif;
 }
-p {
+input {
+    border: none;
+    background-color: transparent;
+
+    width: 90vw;
+    max-width: 250px;
+    margin: 0;
+
+    font-size: 15px;
+    text-align: center;
+    caret-color: transparent;
     font-family: 'Dosis', sans-serif;
+}
+input::placeholder {
+    color: black;
+}
+input:focus {
+    outline: none;
 }
