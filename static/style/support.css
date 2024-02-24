@@ -39,9 +39,17 @@ p {
     margin: 30px 0 20px 0;
 }
 
-a {
-    color: #6639a4;
+a.mail {
+    color: #5d058f;
 }
+
+a.ampfin {
+    color: #AA5CC3;
+}
+a.shelfplayer {
+    color: #FACC15;
+}
+
 a:hover, a:focus {
     text-decoration: underline;
 }
